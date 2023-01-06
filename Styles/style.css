@@ -1,0 +1,54 @@
+body {
+    margin-right: 550px;
+}
+
+/* Added Favicon As Bonus */
+/* Added Favicon As Bonus */
+/* Added Favicon As Bonus */
+
+
+/* header */
+.header {
+    position: relative;
+    text-align: right;
+    width: 100%;
+
+}
+
+.header-text {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    padding: 130px;
+    max-inline-size: 450px;
+
+}
+
+.head-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+}
+
+.head-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    color: #ffff;
+    background-color: #ff4500;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* main */
+
