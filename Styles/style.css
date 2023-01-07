@@ -1,11 +1,15 @@
 body {
-    margin-right: 550px;
+    text-align: center;
 }
 
 /* Added Favicon As Bonus */
 /* Added Favicon As Bonus */
 /* Added Favicon As Bonus */
 
+
+/* Please Adjust Your Zoom Radius For Proper View  */
+/* Please Adjust Your Zoom Radius For Proper View  */
+/* Please Adjust Your Zoom Radius For Proper View  */
 
 /* header */
 .header {
@@ -27,7 +31,7 @@ body {
 .head-title {
     font-weight: 700;
     font-size: 65px;
-    line-height: 76px;
+
     text-align: right;
 }
 
@@ -36,6 +40,7 @@ body {
     font-size: 16px;
     line-height: 26px;
     text-align: right;
+    color: #444343;
 
 }
 
@@ -51,4 +56,171 @@ body {
 }
 
 /* main */
+/* main tag contains 3 different parts with 3 different styles */
 
+/*  My failures  */
+
+/* person image background added by me  */
+.failures {
+    margin-top: 150px;
+    display: flex;
+    gap: 250px;
+    width: 1200px;
+    height: 720px;
+    align-items: center;
+    margin-left: 80px;
+
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+
+}
+
+.text-failure {
+    text-align: left;
+    width: 416px;
+height: 400px;
+}
+
+.failures-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+.failures-li{
+    list-style: none;
+    }
+   
+
+/* this tag is done with help of google */
+ul li:before {
+    content: '✓';
+    color: lawngreen;
+  }
+
+  /* My Plans */
+
+ .my-plans{
+    margin-top: 150px;
+    margin-bottom: 150px;
+ }
+  .plans-title{
+    font-weight: 700;
+font-size: 40px;
+color: #000;
+  }
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.plan-titile{
+    font-weight: 700;
+font-size: 30px;
+color: #151414;
+}
+.plan-description{
+    font-weight: 500;
+font-size: 25px;
+color: #737272;
+}
+
+/*  postive  */
+
+.positive-div{
+    
+    position: absolute;
+top: 35px;
+right: 600px;
+text-align: left;
+
+}
+.positive-text{
+    color: #ffff;
+    font-weight: 700;
+font-size: 40px;
+
+
+}
+.btn-secondary{
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    color: #ff4500;
+    background-color: #ffff;
+    border: 0;
+    border-radius: 5px;
+}
+.positive{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position:  top;
+    position: relative;
+  text-align: center;
+  margin-bottom: 150px;
+}
+/* Main Body Ending */
+
+.ending{
+    background-color: #000;
+    width: 1600px;
+    height: 577px;;
+    display: flex;
+    gap: 150px;
+    padding: 130px 230px;
+    
+}
+.future{
+    margin-top: 100px;
+    
+}
+.future-title{
+    font-weight: 700;
+font-size: 45px;
+color: #F8F8F8;
+text-align: left;
+}
+.future-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-right: 50px;
+    text-align: left;
+}
+.icon{
+    margin-top: 50px;
+    text-align: left;
+}
+.subscribe{
+    margin-top: 140px;
+    text-align: left;
+}
+.subscribe-title{
+    font-weight: 600;
+font-size: 25px;
+color: #ffff;
+
+
+}
+
+input{
+    margin:50px 0;
+    padding: 10px;
+    border-color: #FFFFFF;
+    background-color: #000;
+    color: #FFFFFF;
+    
+}
+    footer{
+        background-color: brown;
+        
+        font-size: 160px;
+    }
+
+
+    /* The End  */
